@@ -6,13 +6,12 @@
 //
 
 
-
 import UIKit
 
 // MARK: - VillainDetailViewController: UIViewController
 
 class VillainDetailViewController: UIViewController {
-
+    
     // MARK: Properties
     
     var villain: Villain!
@@ -27,7 +26,9 @@ class VillainDetailViewController: UIViewController {
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
         self.label.text = self.villain.name
+  
         self.tabBarController?.tabBar.isHidden = true
+        
         self.imageView!.image = UIImage(named: villain.imageName)
     }
     

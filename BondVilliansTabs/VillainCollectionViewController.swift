@@ -5,23 +5,28 @@
 //  Created by Apple Computer on 6/11/23.
 //
 
-
-
 import Foundation
 import UIKit
 
 // MARK: - VillainCollectionViewController: UICollectionViewController
 
 class VillainCollectionViewController: UICollectionViewController {
-
+    
     // MARK: Properties
     
+    // TODO: Add outlet to flowLayout here.
+    
     // Get ahold of some villains, for the table
-    // This is an array of Villain instances.
+    // This is an array of Villain instances
     let allVillains = Villain.allVillains
     
     // MARK: Life Cycle
     
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        //TODO: Implement flowLayout here.
+    }
+
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
         self.tabBarController?.tabBar.isHidden = false
