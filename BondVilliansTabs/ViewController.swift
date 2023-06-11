@@ -47,4 +47,3 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
         self.navigationController!.pushViewController(detailController, animated: true)
     }
 }
-

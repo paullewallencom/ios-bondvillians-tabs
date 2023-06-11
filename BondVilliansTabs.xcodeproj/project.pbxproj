@@ -15,6 +15,8 @@
 		747A21DE2A368F22002ECC47 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 747A21DC2A368F22002ECC47 /* LaunchScreen.storyboard */; };
 		747A21E62A368FD7002ECC47 /* VillainDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 747A21E52A368FD7002ECC47 /* VillainDetailViewController.swift */; };
 		747A21E82A369004002ECC47 /* Villain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 747A21E72A369004002ECC47 /* Villain.swift */; };
+		747A21EA2A3690EA002ECC47 /* VillainCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 747A21E92A3690EA002ECC47 /* VillainCollectionViewCell.swift */; };
+		747A21EC2A369150002ECC47 /* VillainCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 747A21EB2A369150002ECC47 /* VillainCollectionViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +30,8 @@
 		747A21DF2A368F22002ECC47 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		747A21E52A368FD7002ECC47 /* VillainDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VillainDetailViewController.swift; sourceTree = "<group>"; };
 		747A21E72A369004002ECC47 /* Villain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Villain.swift; sourceTree = "<group>"; };
+		747A21E92A3690EA002ECC47 /* VillainCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VillainCollectionViewCell.swift; sourceTree = "<group>"; };
+		747A21EB2A369150002ECC47 /* VillainCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VillainCollectionViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,6 +73,8 @@
 				747A21DF2A368F22002ECC47 /* Info.plist */,
 				747A21E52A368FD7002ECC47 /* VillainDetailViewController.swift */,
 				747A21E72A369004002ECC47 /* Villain.swift */,
+				747A21E92A3690EA002ECC47 /* VillainCollectionViewCell.swift */,
+				747A21EB2A369150002ECC47 /* VillainCollectionViewController.swift */,
 			);
 			path = BondVilliansTabs;
 			sourceTree = "<group>";
@@ -144,8 +150,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				747A21EC2A369150002ECC47 /* VillainCollectionViewController.swift in Sources */,
 				747A21D62A368F1F002ECC47 /* ViewController.swift in Sources */,
 				747A21D22A368F1F002ECC47 /* AppDelegate.swift in Sources */,
+				747A21EA2A3690EA002ECC47 /* VillainCollectionViewCell.swift in Sources */,
 				747A21D42A368F1F002ECC47 /* SceneDelegate.swift in Sources */,
 				747A21E82A369004002ECC47 /* Villain.swift in Sources */,
 				747A21E62A368FD7002ECC47 /* VillainDetailViewController.swift in Sources */,

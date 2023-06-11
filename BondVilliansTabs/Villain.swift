@@ -7,6 +7,8 @@
 
 
 
+
+
 import Foundation
 import UIKit
 
@@ -27,9 +29,9 @@ struct Villain {
     // MARK: Initializer
     
     // Generate a Villain from a three entry dictionary
-
-    init(dictionary: [String : String]) {
     
+    init(dictionary: [String : String]) {
+        
         self.name = dictionary[Villain.NameKey]!
         self.evilScheme = dictionary[Villain.EvilSchemeKey]!
         self.imageName = dictionary[Villain.ImageNameKey]!
@@ -39,11 +41,11 @@ struct Villain {
 // MARK: - Villain (All Villians)
 
 /**
-* This extension adds static variable allVillains. An array of Villain objects
-*/
+ * This extension adds static variable allVillains. An array of Villain objects
+ */
 
 extension Villain {
-
+    
     // Generate an array full of all of the villains in
     static var allVillains: [Villain] {
         
